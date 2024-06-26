@@ -1,0 +1,76 @@
+@import "./header.css";
+@import "./hero.css";
+@import "./intro.css";
+@import "./galleri-en.css";
+@import "./galleri-to.css";
+@import "./footer.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    /* hoved farge sett */
+
+    --primary: #0F8CFA;
+    --secandary:#0662B2;
+    --tertiery:#033663 ;
+    --quertiery:#4BA9FB ;
+    --accent:#5FB3FC ;
+    
+    --black:#000B14;
+    --white:#EBF5FF;
+    --darkGrey:#2C2F31 ;
+    --grey:#384149 ;
+    --text:#c2fcbb;
+
+    /* backup farge sett */
+
+  /* --primary:#1ACB1A;
+  --secandary:#13AE13;
+  --tertiery:#3ADA3A;
+  --quertiery:#0B900B;
+  --accent:#7EC774;
+
+  --black:#063D00;
+  --white:#d2f1d2;
+  --darkGrey:#DFFCDF;
+  --grey:#000000;
+  --text:#c2fcbb; */
+
+  /* farge sett for testing */
+
+  /* --primary:#1ACB1A;
+  --secandary:#13AE13;
+  --tertiery:#3ADA3A;
+  --quertiery:#0B900B;
+  --accent:#7EC774;
+
+  --black:#063D00;
+  --white:#d2f1d2;
+  --darkGrey:#DFFCDF;
+  --grey:#000000;
+  --text:#c2fcbb; */
+}
+
+body {
+    color: var(--grey);
+    background-color: var(--black);
+    overflow-x: hidden;
+}
+
+main {
+    display: grid;
+}
+
+section {
+
+}
+
+section:last-of-type {
+    
+}
