@@ -3,6 +3,10 @@ section.galleri-en {
     gap: 16px;
 }
 
+section.galleri-en p {
+    color: var(--darkgrey);
+}
+
 section.galleri-en div.grid-en {
     display: grid;
     flex-wrap: wrap;
