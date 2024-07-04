@@ -4,106 +4,116 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bilde-galleri</title>
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="./styles/core.css" />
   </head>
 
   <body>
     <header>
       <figure>
-        <img src="./" alt="logo" />
+        <!-- <img src="./" alt="logo" /> trenger å finne bilde  -->
       </figure>
 
       <nav>
         <a href="#intro">intro</a>
-        <a href="#galleri-en">bilder1</a>
-        <a href="#galleri-to">bilder2</a>
+        <a href="#galleri1">bilder1</a>
+        <a href="#galleri2">bilder2</a>
       </nav>
     </header>
 
     <main>
       <section class="hero">
         <div class="hero-text">
-          <h1>midlertidig tekst grunnet testig</h1>
-          <p>midlertidig tekst grunnet testig</p>
+          <h1>Min samling av nordlysbilder</h1>
+          <!-- <p>Jeg liker å ta bilder når det er nordlys ute</p> -->
         </div>
         <button>
-          <a href="#galleri-en">galleri med bilder</a>
+          <a href="#galleri1">galleri med bilder</a>
         </button>
       </section>
 
-      <section class="intro">
+      <section class="intro" id="intro">
         <div>
-          <h2>intro section title wip</h2>
+          <h2>
+            Jeg har en del bilder som jeg har tatt mens jeg på tur hjem og
+            bilder rett utenfor
+          </h2>
           <figure>
-            <img src="" alt="" />
+            <img src="./bilder/nordlys7.jpg" alt="bilde av nordlys" />
           </figure>
         </div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+          Jeg liker å ta bilder når det er nordlys men siden jeg ikke har noe
+          bra kamera så bruker jeg bare mobilen når det er lyst ute så blir
+          bildene bra men de kan bli dårlig når det er verldig mørkt ute
         </p>
-        aliquam exercitationem adipisci, in quo vero doloremque provident
-        facilis iste atque error sunt? Voluptas animi nulla sunt eligendi beatae
-        illo delectus.
       </section>
 
-      <section class="galleri-en">
+      <section class="galleri-en" id="galleri1">
         <div class="grid-en">
           <div class="bilde en">
-            <p>bilde en</p>
+            <p>bilde 1</p>
+            <img src="./bilder/nordlys6.jpg" alt="bilde" />
           </div>
 
           <div class="bilde to">
-            <p>bilde to</p>
+            <p>bilde 2</p>
+            <img src="./bilder/nordlys9.jpg" alt="bilde" />
           </div>
 
           <div class="bilde tre">
-            <p>blide tre</p>
+            <p>blide 3</p>
+            <img src="./bilder/nordlys7.jpg" alt="bilde" />
           </div>
 
           <div class="bilde fire">
-            <p>bilde fire</p>
+            <p>bilde 4</p>
+            <img src="./bilder/nordlys10.jpg" alt="blide" />
           </div>
         </div>
       </section>
 
-      <section class="galleri-to">
+      <section class="galleri-to" id="galleri2">
         <div class="grid-to">
-            <div class="bilde-1">
-              <p>bilde 1</p>
-            </div>
-  
-            <div class="bilde-2">
-              <p>bilde 2</p>
-            </div>
-  
-            <div class="bilde-3">
-              <p>blide 3</p>
-            </div>
-  
-            <div class="bilde-4">
-              <p>bilde 4</p>
-            </div>
+          <div class="bilde one">
+            <p>bilde 1</p>
+            <img src="./bilder/nordlys11.jpg" alt="" />
           </div>
-      </section>
 
-      <footer id="contacts">
-        <div class="contact-info">
-          <p>Telefon:</p>
-          <p>Adresse:</p>
-          <p>
-            Email:
-            <a href="mailto:martin.digitaletalenter@gmail.com"
-              >martin.digitaletalenter@gmail.com</a
-            >
-          </p>
+          <div class="bilde two">
+            <p>bilde 2</p>
+            <img src="./bilder/nordlys13.jpg" alt="" />
+          </div>
+
+          <div class="bilde three">
+            <p>blide 3</p>
+            <img src="./bilder/nordlys12.jpg" alt="" />
+          </div>
+
+          <div class="bilde four">
+            <p>bilde 4</p>
+            <img src="./bilder/nordlys14.jpg" alt="" />
+          </div>
         </div>
-
-        <nav>
-          <a href="#intro">intro</a>
-          <a href="#galleri-en">bilder1</a>
-          <a href="#galleri-to">bilder2</a>
-        </nav>
-      </footer>
+      </section>
     </main>
+
+    <footer id="contacts">
+      <div class="contact-info">
+        <p>Telefon:</p>
+        <p>Adresse:</p>
+        <p>
+          Email:
+          <a href="mailto:martin.digitaletalenter@gmail.com"
+            >martin.digitaletalenter@gmail.com</a
+          >
+        </p>
+      </div>
+
+      <nav>
+        <a href="#intro">intro</a>
+        <a href="#galleri-en">bilder1</a>
+        <a href="#galleri-to">bilder2</a>
+      </nav>
+    </footer>
   </body>
 </html>

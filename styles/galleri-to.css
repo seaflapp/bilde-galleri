@@ -1,0 +1,49 @@
+section.galleri-to {
+    flex-direction: column;
+    gap: 16px;
+}
+
+section.galleri-to div.grid-to {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+section.galleri-to div.grid-to img {
+    height: 200px;
+    width: 200px;
+}
+
+.grid-to {
+    margin-top: 10px;
+    margin-inline: auto;
+    width: 80%;
+    height: 80%;
+    /* grid-template-columns: repeat(2, minmmax (50px, 1fr));
+    grid-template-rows: repeat(2, minmmax (50px, 1fr)); */
+    gap: 8px;
+    grid-template-columns: repeat(2, minmmax(100px, 100px));
+    grid-template-rows: repeat(2 100px);
+    grid-auto-flow: dense;
+    grid-template-areas:
+    "four two"
+    "three one";
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.four {
+    grid-area: four;
+}

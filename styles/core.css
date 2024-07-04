@@ -24,9 +24,10 @@
     
     --black:#000B14;
     --white:#EBF5FF;
-    --darkGrey:#2C2F31 ;
-    --grey:#384149 ;
+    --darkgrey:#2C2F31 ;
+    --grey:#000000 ;
     --text:#c2fcbb;
+    --link:#7d83e9;
 
     /* backup farge sett */
 
@@ -58,19 +59,27 @@
 }
 
 body {
-    color: var(--grey);
-    background-color: var(--black);
+    color: var(--white);
+    background-color: var(--primary);
     overflow-x: hidden;
 }
 
 main {
     display: grid;
+    /* background-color: #2C2F31; */
 }
 
 section {
-
+    /* margin-inline: 8px; */
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: var(--quertiery);
 }
 
 section:last-of-type {
+    margin-bottom: 64px;
     
 }

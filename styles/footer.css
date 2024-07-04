@@ -1,0 +1,40 @@
+footer {
+    display: flex;
+    background-color: var(--tertiery);
+    height: 96px;
+    padding-inline: 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div.contact-info {
+    display: grid;
+    /* background-color: rgb(26, 26, 20); */
+    gap: 8px;
+}
+
+footer div.contact-info p {
+
+}
+
+footer div.contact-info a {
+    color: var(--link);
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+footer nav a {
+    color: var(--link);
+}
+
+footer nav a:hover {
+    scale: 120%;
+}
+
+footer nav a:active {
+    scale: 90%;
+}
